@@ -1,0 +1,119 @@
+
+
+body {
+  background-image: url('https://images3.alphacoders.com/103/thumb-1920-1038349.jpg');
+ text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-container input[type="text"]:focus {
+  border-color: #000000;
+}
+
+.drinks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.drink-item {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.drink-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.drink-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.drink-details {
+  padding: 15px;
+}
+
+.drink-details h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.drink-details button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.drink-details button:hover {
+  background-color: #e94f43;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart-item {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px; 
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.cart-item h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
